@@ -1,0 +1,74 @@
+#AnchorpaneofSign{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+}
+#AnchorPane{
+    -fx-background-color: #393b44;
+}
+#AnchorpaneofAttend{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+
+}
+
+#textFiled{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+
+#buttonofSignin{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonofSignin:hover{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHome{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHome:hover{
+    -fx-background-color: #393b44;
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHomeLogout{
+    -fx-background-color: #f05454;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHomeLogout:hover{
+    -fx-background-color: #af2d2d;
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofAttend{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofAttend:hover{
+    -fx-background-color: #bedbbb;
+    -fx-text-fill: #393b44;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+
+#tablbackground{
+    -fx-background-color: #6CABCD;
+    
+}
+#Search{
+    -fx-background-color: #f1f3f8;
+}
+#Search:hover{
+    -fx-background-color: #f1f3f8;
+    -fx-background-color: rgba(141, 147, 171,0.3);
+    -fx-text-fill: #f1f3f8;
+}

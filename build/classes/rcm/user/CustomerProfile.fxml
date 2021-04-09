@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="733.0" prefWidth="985.0" stylesheets="@styleSheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="rcm.user.CustomerProfileController">
+   <children>
+      <ImageView layoutX="22.0" layoutY="14.0">
+         <image>
+            <Image url="@../images/back_to_50px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="124.0" layoutX="837.0" layoutY="14.0">
+         <image>
+            <Image url="@../images/RCM_loge_white.png" />
+         </image>
+      </ImageView>
+      <AnchorPane id="AnchorpaneofSign" layoutX="237.0" layoutY="167.0" prefHeight="438.0" prefWidth="511.0" stylesheets="@styleSheet.css">
+         <children>
+            <TextField id="textFiled" alignment="CENTER" layoutX="152.0" layoutY="96.0" prefHeight="38.0" prefWidth="208.0" promptText="FULL NAME" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <TextField id="textFiled" alignment="CENTER" layoutX="154.0" layoutY="191.0" prefHeight="38.0" prefWidth="208.0" promptText="E-MAIL" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <TextField id="textFiled" alignment="CENTER" layoutX="154.0" layoutY="281.0" prefHeight="38.0" prefWidth="208.0" promptText="PHONE NUMBER" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <DatePicker layoutX="154.0" layoutY="372.0" prefHeight="38.0" prefWidth="208.0" promptText="DATE OF BARTH" />
+            <AnchorPane layoutX="77.0" layoutY="-27.0" prefHeight="54.0" prefWidth="246.0" style="-fx-background-color: fff;">
+               <children>
+                  <Label layoutX="74.0" layoutY="8.0" text="MY PROFILE">
+                     <font>
+                        <Font name="Agency FB Bold" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <Circle fill="WHITE" layoutX="77.0" radius="44.0" stroke="TRANSPARENT" strokeType="OUTSIDE">
+               <effect>
+                  <DropShadow color="#00000079" />
+               </effect>
+            </Circle>
+            <ImageView fitHeight="54.0" fitWidth="58.0" layoutX="48.0" layoutY="-27.0">
+               <image>
+                  <Image url="@../images/profiles_50px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button id="buttonofSignin" layoutX="413.0" layoutY="663.0" mnemonicParsing="false" stylesheets="@styleSheet.css" text="SAVE INFORMATION">
+         <font>
+            <Font name="Agency FB Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

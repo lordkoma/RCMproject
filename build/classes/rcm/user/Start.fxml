@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rcm.user.StartController">
+    <children>
+        <ImageView fitHeight="124.0" fitWidth="134.0" layoutX="239.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/RCM_loge_white.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="214.0" layoutY="330.0" opacity="0.32" text="*PLEASE SELECT A WAY TO LOGIN*" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Label>
+        <AnchorPane id="AnchorpaneofSign" layoutY="214.0" prefHeight="102.0" prefWidth="600.0" stylesheets="@styleSheet.css">
+            <children>
+                <Circle fill="WHITE" layoutX="184.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+                <ImageView fx:id="customerImg" fitHeight="82.0" fitWidth="82.0" layoutX="143.0" layoutY="-41.0" onMouseClicked="#signIn" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/icons8_user_64px_1.png" />
+                    </image>
+                </ImageView>
+                <Circle fill="WHITE" layoutX="410.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+                <ImageView fx:id="adminImg" fitHeight="82.0" fitWidth="82.0" layoutX="369.0" layoutY="-41.0" onMouseClicked="#signIn" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/icons8_user_64px_1.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="137.0" layoutY="58.0" onMouseClicked="#signIn" text="CUSTOMER" textFill="#eeeeee">
+                    <font>
+                        <Font name="Agency FB" size="28.0" />
+                    </font>
+                </Label>
+                <Label layoutX="379.0" layoutY="58.0" onMouseClicked="#signIn" text="OWNER" textFill="#eeeeee">
+                    <font>
+                        <Font name="Agency FB" size="28.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Label layoutX="14.0" layoutY="446.0" prefHeight="23.0" prefWidth="178.0" text="ADMIN OR CUSTOMER CARE?" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="14.0" layoutY="469.0" onMouseClicked="#signIn" text="CLICK HERE TO LOGIN">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Hyperlink>
+    </children>
+</AnchorPane>

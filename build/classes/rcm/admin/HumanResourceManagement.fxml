@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="701.0" prefWidth="913.0" stylesheets="@stayl.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rcm.admin.HumanResourceManagementController">
+   <children>
+      <ImageView fitHeight="145.0" fitWidth="142.0" layoutX="386.0" layoutY="23.0">
+         <image>
+            <Image url="@../imgs/RCM_loge_white.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="210.0" layoutY="195.0" text="Human Resource Management" textFill="WHITE">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <AnchorPane id="AnchorpaneofSign" layoutX="81.0" layoutY="347.0" prefHeight="95.0" prefWidth="251.0" style="-fx-background-radius: 5;" stylesheets="@stayl.css">
+         <children>
+            <Button id="buttonsofHome" layoutX="2.0" layoutY="56.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="251.0" stylesheets="@stayl.css" text="TECHNICAL SUPPORT">
+               <font>
+                  <Font name="Agency FB Bold" size="18.0" />
+               </font>
+            </Button>
+            <Circle fill="WHITE" layoutX="128.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView layoutX="103.0" layoutY="-25.0">
+               <image>
+                  <Image url="@../imgs/technical_support_50px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="AnchorpaneofSign" layoutX="551.0" layoutY="347.0" prefHeight="95.0" prefWidth="251.0" style="-fx-background-radius: 5;" stylesheets="@stayl.css">
+         <children>
+            <Button id="buttonsofHome" layoutX="2.0" layoutY="56.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="251.0" stylesheets="@stayl.css" text="RESPONSIBLE">
+               <font>
+                  <Font name="Agency FB Bold" size="18.0" />
+               </font>
+            </Button>
+            <Circle fill="WHITE" layoutX="128.0" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView layoutX="103.0" layoutY="-25.0">
+               <image>
+                  <Image url="@../imgs/school_director_50px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button id="buttonsofHomeLogout" layoutX="332.0" layoutY="642.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="251.0" stylesheets="@stayl.css" text="LOGOUT">
+         <font>
+            <Font name="Agency FB Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="60.0" fitWidth="50.0" layoutX="21.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/back_to_50px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

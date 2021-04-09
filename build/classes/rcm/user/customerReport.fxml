@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="733.0" prefWidth="985.0" stylesheets="@styleSheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="rcm.user.CustomerReportController">
+   <children>
+      <AnchorPane id="AnchorpaneofSign" layoutX="204.0" layoutY="166.0" prefHeight="447.0" prefWidth="600.0" stylesheets="@styleSheet.css">
+         <children>
+            <AnchorPane layoutX="60.0" layoutY="-27.0" prefHeight="54.0" prefWidth="315.0" style="-fx-background-color: fff;">
+               <children>
+                  <Label layoutX="74.0" layoutY="8.0" text="REPORT A PROBLEM">
+                     <font>
+                        <Font name="Agency FB Bold" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <Circle fill="WHITE" layoutX="67.0" radius="44.0" stroke="TRANSPARENT" strokeType="OUTSIDE">
+               <effect>
+                  <DropShadow color="#00000079" />
+               </effect>
+            </Circle>
+            <ImageView fitHeight="54.0" fitWidth="58.0" layoutX="38.0" layoutY="-28.0">
+               <image>
+                  <Image url="@../images/request_service_50px.png" />
+               </image>
+            </ImageView>
+            <TextField id="textFiled" alignment="CENTER" layoutX="74.0" layoutY="81.0" prefHeight="37.0" prefWidth="187.0" promptText="YOUR NAME" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <TextField id="textFiled" alignment="CENTER" layoutX="338.0" layoutY="81.0" prefHeight="37.0" prefWidth="187.0" promptText="PHONE NUMBER" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <TextField id="textFiled" alignment="CENTER" layoutX="338.0" layoutY="170.0" prefHeight="37.0" prefWidth="187.0" promptText="REPORT TITLE" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <TextField id="textFiled" alignment="CENTER" layoutX="74.0" layoutY="170.0" prefHeight="37.0" prefWidth="187.0" promptText="CONTACT E-MAIL" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="19.0" />
+               </font>
+            </TextField>
+            <TextArea layoutX="75.0" layoutY="233.0" prefHeight="200.0" prefWidth="451.0" promptText="PROBLEM DESCREPTION" style="-FX-BORDER-R: 10PX;" />
+         </children>
+      </AnchorPane>
+      <ImageView layoutX="65.0" layoutY="34.0">
+         <image>
+            <Image url="@../images/back_to_50px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="101.0" layoutX="862.0" layoutY="34.0">
+         <image>
+            <Image url="@../images/RCM_loge_white.png" />
+         </image>
+      </ImageView>
+      <Button id="buttonofSignin" layoutX="434.0" layoutY="659.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="141.0" stylesheets="@styleSheet.css" text="SEND REPORT">
+         <font>
+            <Font name="Agency FB Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

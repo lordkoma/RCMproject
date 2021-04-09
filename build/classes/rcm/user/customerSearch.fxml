@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="733.0" prefWidth="985.0" stylesheets="@styleSheet.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="rcm.user.CustomerSearchController">
+   <children>
+      <AnchorPane id="AnchorpaneofSign" layoutX="30.0" layoutY="157.0" prefHeight="525.0" prefWidth="933.0" stylesheets="@styleSheet.css">
+         <children>
+            <AnchorPane layoutX="60.0" layoutY="-27.0" prefHeight="54.0" prefWidth="437.0" style="-fx-background-color: fff;">
+               <children>
+                  <Label layoutX="54.0" layoutY="8.0" text="SEARCH FOR RESIDENTAL COMPLEX">
+                     <font>
+                        <Font name="Agency FB Bold" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <Circle fill="WHITE" layoutX="67.0" radius="44.0" stroke="TRANSPARENT" strokeType="OUTSIDE">
+               <effect>
+                  <DropShadow color="#00000079" />
+               </effect>
+            </Circle>
+            <ImageView fitHeight="54.0" fitWidth="58.0" layoutX="38.0" layoutY="-28.0">
+               <image>
+                  <Image url="@../images/rent_50px.png" />
+               </image>
+            </ImageView>
+            <TextField id="textFiled" alignment="CENTER" layoutX="373.0" layoutY="45.0" promptText="ENTER YOUR CITY" stylesheets="@styleSheet.css" />
+            <AnchorPane id="AnchorpaneofRCM" layoutX="7.0" layoutY="151.0" prefHeight="127.0" prefWidth="398.0" stylesheets="@styleSheet.css">
+               <children>
+                  <Label layoutX="149.0" layoutY="14.0" text="Bedrooms: 5" />
+                  <Label layoutX="149.0" layoutY="43.0" text="Bathrooms: 3" />
+                  <Label layoutX="149.0" layoutY="72.0" text="Address: Mecca, Alawaly, Ibrahem Aljafaly st." />
+                  <Label layoutX="149.0" layoutY="103.0" text="Owner Name: Abed Altalhi" />
+                  <ImageView fitHeight="116.0" fitWidth="145.0" layoutY="6.0">
+                     <image>
+                        <Image url="@../images/8.jfif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane id="AnchorpaneofRCM" layoutX="7.0" layoutY="340.0" prefHeight="127.0" prefWidth="398.0" stylesheets="@styleSheet.css">
+               <children>
+                  <Label layoutX="149.0" layoutY="14.0" text="Bedrooms: 3" />
+                  <Label layoutX="149.0" layoutY="43.0" text="Bathrooms: 2" />
+                  <Label layoutX="149.0" layoutY="72.0" text="Address: Mecca, Alawaly, Ibrahem Aljafaly st." />
+                  <Label layoutX="149.0" layoutY="103.0" text="Owner Name: Abdulelah Abbas" />
+                  <ImageView fitHeight="116.0" fitWidth="145.0" layoutY="6.0">
+                     <image>
+                        <Image url="@../images/6.jfif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane id="AnchorpaneofRCM" layoutX="476.0" layoutY="151.0" prefHeight="127.0" prefWidth="398.0" stylesheets="@styleSheet.css">
+               <children>
+                  <Label layoutX="149.0" layoutY="14.0" text="Bedrooms: 3" />
+                  <Label layoutX="149.0" layoutY="43.0" text="Bathrooms: 1" />
+                  <Label layoutX="149.0" layoutY="72.0" text="Address: Mecca, Alawaly, Ibrahem Aljafaly st." />
+                  <Label layoutX="149.0" layoutY="103.0" text="Owner Name: Mohammed Al-rammah" />
+                  <ImageView fitHeight="116.0" fitWidth="145.0" layoutY="6.0">
+                     <image>
+                        <Image url="@../images/7.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane id="AnchorpaneofRCM" layoutX="483.0" layoutY="340.0" prefHeight="127.0" prefWidth="443.0" stylesheets="@styleSheet.css">
+               <children>
+                  <Label layoutX="149.0" layoutY="14.0" text="Bedrooms: 4" />
+                  <Label layoutX="149.0" layoutY="43.0" text="Bathrooms: 2" />
+                  <Label layoutX="149.0" layoutY="72.0" text="Address: Mecca, Resafa, Abdulah Shaif st." />
+                  <Label layoutX="149.0" layoutY="103.0" text="Owner Name: Hamed Saigh" />
+                  <ImageView fitHeight="116.0" fitWidth="145.0" layoutY="6.0">
+                     <image>
+                        <Image url="@../images/5.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button id="buttonofSignin" layoutX="589.0" layoutY="45.0" mnemonicParsing="false" stylesheets="@styleSheet.css" text="SEARCH">
+               <font>
+                  <Font name="Agency FB Bold" size="16.0" />
+               </font>
+            </Button>
+            <ScrollBar layoutX="917.0" layoutY="3.0" orientation="VERTICAL" prefHeight="519.0" prefWidth="18.0" />
+         </children>
+      </AnchorPane>
+      <ImageView layoutX="65.0" layoutY="34.0">
+         <image>
+            <Image url="@../images/back_to_50px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="101.0" layoutX="862.0" layoutY="34.0">
+         <image>
+            <Image url="@../images/RCM_loge_white.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
